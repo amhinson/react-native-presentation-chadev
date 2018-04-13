@@ -1,0 +1,19 @@
+import React from 'react';
+import { Text, View } from 'react-native';
+
+const user = {
+  firstName: 'Alex',
+  lastName: 'Hinson'
+};
+
+class App extends Component {
+  currentUser = () => `${user.firstName} ${user.lastName}`;
+
+  render() {
+    return (
+      <View>
+        <Text>{this.currentUser()}</Text>
+      </View>
+    );
+  }
+}
