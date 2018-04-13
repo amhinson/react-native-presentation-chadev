@@ -31,17 +31,43 @@ export default [
   <Slide>
     <Heading caps>Real Native App</Heading>
     <Appear>
-      <Code>{'<View />'}</Code>
+      <div style={{ margin: 30 }}>
+        <Code
+          style={{
+            backgroundColor: '#00CFC1',
+            color: 'white',
+            fontSize: '4rem'
+          }}
+        >
+          {'<View />'}
+        </Code>
+      </div>
     </Appear>
     <Layout>
       <Fill>
         <Appear>
-          <Code>UIView</Code>
+          <Code
+            style={{
+              backgroundColor: '#00CFC1',
+              color: 'white',
+              fontSize: '4rem'
+            }}
+          >
+            UIView
+          </Code>
         </Appear>
       </Fill>
       <Fill>
         <Appear>
-          <Code>android.view</Code>
+          <Code
+            style={{
+              backgroundColor: '#00CFC1',
+              color: 'white',
+              fontSize: '4rem'
+            }}
+          >
+            android.view
+          </Code>
         </Appear>
       </Fill>
     </Layout>
