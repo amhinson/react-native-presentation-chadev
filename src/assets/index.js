@@ -10,7 +10,8 @@ const images = {
   panresponder: require('./panresponder.gif'),
   react: require('./react.svg'),
   scrolling: require('./scrolling.gif'),
-  touchableOpacity: require('./touchableOpacity.gif')
+  touchableOpacity: require('./touchableOpacity.gif'),
+  tweet: require('./tweet.png')
 };
 
 export default images;

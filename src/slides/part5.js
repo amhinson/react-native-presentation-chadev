@@ -27,10 +27,10 @@ import Terminal from 'spectacle-terminal';
 import { Code, ListItem, Text } from '../components';
 import images from '../assets';
 
-const buildingBlocks = `                   <div /> === <View />
-<p> | <h1> | <span> | etc. === <Text>
-                   <img /> === <Image />
-                 <input /> === <TextInput />
+const buildingBlocks = `<View />        ===   <div />
+<Text>          ===   <p> | <h1> | <span> | etc.
+<Image />       ===   <img />
+<TextInput />   ===   <input />
 `;
 
 const customStyling = `const styles = StyleSheet.create({
@@ -48,33 +48,31 @@ const customStyling = `const styles = StyleSheet.create({
   }
 });`;
 
-const flexbox = `<View>
-  <View style={{ flex: 1 }}>
-    <Header />
-    <View
-      style={{
-        flex: 1,
-        backgroundColor: 'powderblue'
-      }}
-    />
-    <View
-      style={{
-        flex: 1,
-        backgroundColor: 'deepskyblue'
-      }}
-    />
-    <View
-      style={{
-        flex: 2,
-        backgroundColor: 'dodgerblue'
-      }}
-    />
-  </View>
+const flexbox = `<View style={{ flex: 1 }}>
+  <Header />
+  <View
+    style={{
+      flex: 1,
+      backgroundColor: 'powderblue'
+    }}
+  />
+  <View
+    style={{
+      flex: 1,
+      backgroundColor: 'deepskyblue'
+    }}
+  />
+  <View
+    style={{
+      flex: 2,
+      backgroundColor: 'dodgerblue'
+    }}
+  />
 </View>`;
 
 const platformSpecific = `componentDidMount() {
   if (Platform.OS === 'android') {
-    this.props.doAndroidStuff()
+    doAndroidStuff()
   }
 }
 
@@ -86,6 +84,7 @@ matchDetailContainer: {
 `;
 
 const touchableOpacity = `<TouchableOpacity
+  onPress={doSomething}
   style={styles.container}
 >
   <Text style={styles.text}>
@@ -169,14 +168,12 @@ export default [
 
   <Slide>
     <Heading caps>Building Blocks</Heading>
-    <Appear>
-      <CodePane
-        theme="external"
-        lang="jsx"
-        source={buildingBlocks}
-        textSize="40px"
-      />
-    </Appear>
+    <CodePane
+      theme="external"
+      lang="jsx"
+      source={buildingBlocks}
+      textSize="40px"
+    />
   </Slide>,
 
   <Slide>
@@ -184,19 +181,15 @@ export default [
     <div>
       <Layout>
         <Fill>
-          <Appear>
-            <CodePane
-              theme="external"
-              lang="jsx"
-              source={customStyling}
-              textSize="27px"
-            />
-          </Appear>
+          <CodePane
+            theme="external"
+            lang="jsx"
+            source={customStyling}
+            textSize="27px"
+          />
         </Fill>
         <Fill>
-          <Appear>
-            <Image src={images.header} height="600" />
-          </Appear>
+          <Image src={images.header} height="600" />
         </Fill>
       </Layout>
     </div>
@@ -214,9 +207,7 @@ export default [
           />
         </Fill>
         <Fill>
-          <Appear>
-            <Image src={images.flexbox} height="600" />
-          </Appear>
+          <Image src={images.flexbox} height="600" />
         </Fill>
       </Layout>
     </div>
@@ -226,14 +217,12 @@ export default [
     <Heading fit caps>
       Platform-Specific
     </Heading>
-    <Appear>
-      <CodePane
-        theme="external"
-        lang="jsx"
-        source={platformSpecific}
-        textSize="32px"
-      />
-    </Appear>
+    <CodePane
+      theme="external"
+      lang="jsx"
+      source={platformSpecific}
+      textSize="32px"
+    />
   </Slide>,
 
   <Slide>
@@ -249,19 +238,15 @@ export default [
     <div>
       <Layout>
         <Fill>
-          <Appear>
-            <CodePane
-              theme="external"
-              lang="jsx"
-              source={touchableOpacity}
-              textSize="34px"
-            />
-          </Appear>
+          <CodePane
+            theme="external"
+            lang="jsx"
+            source={touchableOpacity}
+            textSize="34px"
+          />
         </Fill>
         <Fill>
-          <Appear>
-            <Image src={images.touchableOpacity} height="600" />
-          </Appear>
+          <Image src={images.touchableOpacity} height="600" />
         </Fill>
       </Layout>
     </div>
@@ -274,19 +259,15 @@ export default [
     <div>
       <Layout>
         <Fill>
-          <Appear>
-            <CodePane
-              theme="external"
-              lang="jsx"
-              source={animations}
-              textSize="32px"
-            />
-          </Appear>
+          <CodePane
+            theme="external"
+            lang="jsx"
+            source={animations}
+            textSize="32px"
+          />
         </Fill>
         <Fill>
-          <Appear>
-            <Image src={images.animation} height="600" />
-          </Appear>
+          <Image src={images.animation} height="600" />
         </Fill>
       </Layout>
     </div>
@@ -297,9 +278,7 @@ export default [
       Gestures - PanResponder
     </Heading>
     <div>
-      <Appear>
-        <Image src={images.panresponder} height="600" />
-      </Appear>
+      <Image src={images.panresponder} height="600" />
     </div>
   </Slide>,
 
@@ -308,9 +287,7 @@ export default [
       Developer Workflow
     </Heading>
     <div>
-      <Appear>
-        <Image src={images.devmenu} height="600" />
-      </Appear>
+      <Image src={images.devmenu} height="600" />
     </div>
   </Slide>,
 

@@ -31,16 +31,16 @@ export default [
 
   <Slide>
     <Text padding="30px 0" bold>
-      Virtual Reality
+      VR & AR
     </Text>
     <Text padding="30px 0" bold>
-      Augmented Reality
+      Windows & Mac
     </Text>
     <Text padding="30px 0" bold>
       Music
     </Text>
     <Text padding="30px 0" bold>
-      Windows & Mac
+      XBox One
     </Text>
     <Text padding="30px 0" bold>
       Apple TV & Android TV
@@ -51,6 +51,9 @@ export default [
     <Heading fit caps>
       One centralized framework
     </Heading>
+    <Appear>
+      <Image src={images.tweet} height="400" />
+    </Appear>
   </Slide>,
 
   <Slide>
