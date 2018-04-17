@@ -101,7 +101,7 @@ const animations = `animate = animation =>
 
 export default [
   <Slide bgColor="tertiary">
-    <Heading fit caps textColor="primary">
+    <Heading fit caps textColor="#edfffd">
       Compare with React
     </Heading>
   </Slide>,
@@ -168,31 +168,35 @@ export default [
 
   <Slide>
     <Heading caps>Building Blocks</Heading>
-    <CodePane
-      theme="external"
-      lang="jsx"
-      source={buildingBlocks}
-      textSize="40px"
-    />
+    <Appear>
+      <CodePane
+        theme="external"
+        lang="jsx"
+        source={buildingBlocks}
+        textSize="40px"
+      />
+    </Appear>
   </Slide>,
 
   <Slide>
     <Heading caps>Styling</Heading>
-    <div>
-      <Layout>
-        <Fill>
-          <CodePane
-            theme="external"
-            lang="jsx"
-            source={customStyling}
-            textSize="27px"
-          />
-        </Fill>
-        <Fill>
-          <Image src={images.header} height="600" />
-        </Fill>
-      </Layout>
-    </div>
+    <Appear>
+      <div>
+        <Layout>
+          <Fill>
+            <CodePane
+              theme="external"
+              lang="jsx"
+              source={customStyling}
+              textSize="27px"
+            />
+          </Fill>
+          <Fill>
+            <Image src={images.header} height="600" />
+          </Fill>
+        </Layout>
+      </div>
+    </Appear>
   </Slide>,
 
   <Slide>
@@ -217,12 +221,14 @@ export default [
     <Heading fit caps>
       Platform-Specific
     </Heading>
-    <CodePane
-      theme="external"
-      lang="jsx"
-      source={platformSpecific}
-      textSize="32px"
-    />
+    <Appear>
+      <CodePane
+        theme="external"
+        lang="jsx"
+        source={platformSpecific}
+        textSize="32px"
+      />
+    </Appear>
   </Slide>,
 
   <Slide>
@@ -235,42 +241,46 @@ export default [
     <Heading textSize={70} caps>
       Touchable
     </Heading>
-    <div>
-      <Layout>
-        <Fill>
-          <CodePane
-            theme="external"
-            lang="jsx"
-            source={touchableOpacity}
-            textSize="34px"
-          />
-        </Fill>
-        <Fill>
-          <Image src={images.touchableOpacity} height="600" />
-        </Fill>
-      </Layout>
-    </div>
+    <Appear>
+      <div>
+        <Layout>
+          <Fill>
+            <CodePane
+              theme="external"
+              lang="jsx"
+              source={touchableOpacity}
+              textSize="34px"
+            />
+          </Fill>
+          <Fill>
+            <Image src={images.touchableOpacity} height="600" />
+          </Fill>
+        </Layout>
+      </div>
+    </Appear>
   </Slide>,
 
   <Slide>
     <Heading textSize={70} caps>
       Animations
     </Heading>
-    <div>
-      <Layout>
-        <Fill>
-          <CodePane
-            theme="external"
-            lang="jsx"
-            source={animations}
-            textSize="32px"
-          />
-        </Fill>
-        <Fill>
-          <Image src={images.animation} height="600" />
-        </Fill>
-      </Layout>
-    </div>
+    <Appear>
+      <div>
+        <Layout>
+          <Fill>
+            <CodePane
+              theme="external"
+              lang="jsx"
+              source={animations}
+              textSize="32px"
+            />
+          </Fill>
+          <Fill>
+            <Image src={images.animation} height="600" />
+          </Fill>
+        </Layout>
+      </div>
+    </Appear>
   </Slide>,
 
   <Slide>

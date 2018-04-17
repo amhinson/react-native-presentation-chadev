@@ -16,7 +16,8 @@ import {
   Notes,
   Quote,
   S,
-  Slide
+  Slide,
+  Typeface
 } from 'spectacle';
 
 import { Code, ListItem, Text } from '../components';
@@ -45,7 +46,16 @@ export default [
   </Slide>,
 
   <Slide>
-    <Heading caps>Bridge</Heading>
+    <Heading fit caps>
+      Everything Is Accessible
+    </Heading>
+    <Typeface googleFont="Bungee Shade">
+      <Appear>
+        <Heading caps padding="100px 0">
+          Bridge
+        </Heading>
+      </Appear>
+    </Typeface>
   </Slide>,
 
   <Slide>

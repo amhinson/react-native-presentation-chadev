@@ -25,9 +25,9 @@ import images from '../assets';
 
 export default [
   <Slide bgColor="tertiary">
-    <Heading textColor="primary">Alex Hinson</Heading>
+    <Heading textColor="#edfffd">Alex Hinson</Heading>
     <Typeface googleFont="Bungee Shade">
-      <Text textSize={60} textColor="primary">
+      <Text textSize={60} textColor="#edfffd">
         Airship
       </Text>
     </Typeface>

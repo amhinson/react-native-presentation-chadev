@@ -24,7 +24,7 @@ import images from '../assets';
 
 export default [
   <Slide bgColor="tertiary">
-    <Heading fit caps textColor="primary">
+    <Heading fit caps textColor="#edfffd">
       Future Of React Native
     </Heading>
   </Slide>,

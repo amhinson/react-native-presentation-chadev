@@ -23,7 +23,7 @@ import { Code, ListItem, Text } from '../components';
 
 export default [
   <Slide bgColor="tertiary">
-    <Heading caps textColor="primary">
+    <Heading caps textColor="#edfffd">
       React Native
     </Heading>
   </Slide>,
