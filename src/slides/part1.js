@@ -25,20 +25,20 @@ import images from '../assets';
 
 export default [
   <Slide bgColor="tertiary">
-    <Heading fit textColor="#edfffd">
+    <Heading fit textColor="#f9fdff">
       React Native
     </Heading>
     <Typeface googleFont="Bungee Shade">
-      <Text fit textSize={60} textColor="#edfffd">
+      <Text fit textSize={60} textColor="#f9fdff">
         For React Developers
       </Text>
     </Typeface>
   </Slide>,
 
   <Slide bgColor="tertiary">
-    <Heading textColor="#edfffd">Alex Hinson</Heading>
+    <Heading textColor="#f9fdff">Alex Hinson</Heading>
     <Typeface googleFont="Bungee Shade">
-      <Text textSize={60} textColor="#edfffd">
+      <Text textSize={60} textColor="#f9fdff">
         Airship
       </Text>
     </Typeface>
@@ -54,7 +54,7 @@ export default [
           <Heading
             textSize={60}
             textFont="quarternary"
-            textColor="#007068"
+            textColor="#077c99"
             padding="30px 0"
           >
             Native
@@ -73,7 +73,7 @@ export default [
           <Heading
             textSize={60}
             textFont="quarternary"
-            textColor="#007068"
+            textColor="#077c99"
             padding="30px 0"
           >
             PhoneGap

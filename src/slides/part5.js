@@ -101,7 +101,7 @@ const animations = `animate = animation =>
 
 export default [
   <Slide bgColor="tertiary">
-    <Heading fit caps textColor="#edfffd">
+    <Heading fit caps textColor="#f9fdff">
       Compare with React
     </Heading>
   </Slide>,

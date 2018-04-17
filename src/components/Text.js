@@ -8,7 +8,7 @@ class Text extends React.Component {
       <SpectacleText
         lineHeight={1.4}
         textFont="BioRhyme"
-        textColor="#007068"
+        textColor="#077c99"
         {...this.props}
       >
         {this.props.children}

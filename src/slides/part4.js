@@ -51,7 +51,7 @@ export default [
     </Heading>
     <Typeface googleFont="Bungee Shade">
       <Appear>
-        <Heading caps padding="100px 0">
+        <Heading caps padding="100px 0" textColor="#077c99">
           Bridge
         </Heading>
       </Appear>

@@ -29,10 +29,10 @@ require('normalize.css');
 
 const theme = createTheme(
   {
-    primary: '#eafffc',
-    secondary: '#00CFC1',
-    tertiary: '#00CFC1',
-    quarternary: '#00CFC1'
+    primary: '#ddf8ff',
+    secondary: '#10c1ed',
+    tertiary: '#10c1ed',
+    quarternary: '#10c1ed'
   },
   {
     primary: { name: 'Bungee', googleFont: true },

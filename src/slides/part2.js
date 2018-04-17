@@ -24,7 +24,7 @@ import images from '../assets';
 
 export default [
   <Slide bgColor="tertiary">
-    <Heading caps textColor="#edfffd">
+    <Heading caps textColor="#f9fdff">
       React Native
     </Heading>
     <Image src={images.react} height="170" />
@@ -36,7 +36,7 @@ export default [
       <div style={{ margin: 30 }}>
         <Code
           style={{
-            backgroundColor: '#00CFC1',
+            backgroundColor: '#077c99',
             color: 'white',
             fontSize: '4rem'
           }}
@@ -50,7 +50,7 @@ export default [
         <Appear>
           <Code
             style={{
-              backgroundColor: '#00CFC1',
+              backgroundColor: '#077c99',
               color: 'white',
               fontSize: '4rem'
             }}
@@ -63,7 +63,7 @@ export default [
         <Appear>
           <Code
             style={{
-              backgroundColor: '#00CFC1',
+              backgroundColor: '#077c99',
               color: 'white',
               fontSize: '4rem'
             }}
