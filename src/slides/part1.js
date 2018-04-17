@@ -25,6 +25,15 @@ import images from '../assets';
 
 export default [
   <Slide bgColor="tertiary">
+    <Heading textColor="#edfffd">React Native</Heading>
+    <Typeface googleFont="Bungee Shade">
+      <Text textSize={60} textColor="#edfffd">
+        For React Developers
+      </Text>
+    </Typeface>
+  </Slide>,
+
+  <Slide bgColor="tertiary">
     <Heading textColor="#edfffd">Alex Hinson</Heading>
     <Typeface googleFont="Bungee Shade">
       <Text textSize={60} textColor="#edfffd">

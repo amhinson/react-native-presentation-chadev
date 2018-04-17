@@ -29,7 +29,7 @@ require('normalize.css');
 
 const theme = createTheme(
   {
-    primary: '#CEFFFA',
+    primary: '#eafffc',
     secondary: '#00CFC1',
     tertiary: '#00CFC1',
     quarternary: '#00CFC1'

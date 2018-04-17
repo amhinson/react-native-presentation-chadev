@@ -20,12 +20,14 @@ import {
 } from 'spectacle';
 
 import { Code, ListItem, Text } from '../components';
+import images from '../assets';
 
 export default [
   <Slide bgColor="tertiary">
     <Heading caps textColor="#edfffd">
       React Native
     </Heading>
+    <Image src={images.react} height="170" />
   </Slide>,
 
   <Slide>
