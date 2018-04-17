@@ -10,6 +10,7 @@ const images = {
   panresponder: require('./panresponder.gif'),
   react: require('./react.svg'),
   scrolling: require('./scrolling.gif'),
+  terminal: require('./terminal.png'),
   touchableOpacity: require('./touchableOpacity.gif'),
   tweet: require('./tweet.png')
 };

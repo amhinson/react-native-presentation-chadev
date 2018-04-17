@@ -132,38 +132,7 @@ export default [
 
   <Slide>
     <Heading caps>Create & Run</Heading>
-    <Terminal
-      output={[
-        <div>
-          <span style={{ color: '#33B969' }}>~ </span>react-native init
-          ChattanoogaFC
-        </div>,
-        <div>
-          <div>
-            ================================================================================
-          </div>
-          <div>
-            This will walk you through creating a new React Native project
-          </div>
-          <div>Installing react-native...</div>
-          <div>...</div>
-          <div>...</div>
-          <div>...</div>
-        </div>,
-        <div>
-          <div style={{ color: '#33B969' }}>✨ Done in 5.96s.</div>
-          <div>
-            ================================================================================
-          </div>
-        </div>,
-        <div>
-          <span style={{ color: '#33B969' }}>~ </span>cd ChattanoogaFC
-        </div>,
-        <div>
-          <span style={{ color: '#33B969' }}>~ </span>react-native run-ios
-        </div>
-      ]}
-    />
+    <Image src={images.terminal} width="1500" />
   </Slide>,
 
   <Slide>
