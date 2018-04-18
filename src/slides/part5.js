@@ -208,7 +208,7 @@ export default [
 
   <Slide>
     <Heading textSize={70} caps>
-      Touchable
+      Touch
     </Heading>
     <Appear>
       <div>
