@@ -189,7 +189,7 @@ export default [
     <Notes>
       <NotesText>
         Instead of rendering <Highlight>HTML elements to the DOM</Highlight>,
-        React Native is rendering
+        React Native is rendering{' '}
         <Highlight>native elements in the UI</Highlight>.
       </NotesText>
       <NotesText>

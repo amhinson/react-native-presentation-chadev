@@ -52,6 +52,10 @@ export default [
         This leads into an{' '}
         <Highlight>interesting distinction with RN</Highlight>.
       </NotesText>
+      <NotesText>
+        It can be used to within an existing native application,{' '}
+        <Highlight>AKA a “brown-field” application.</Highlight>
+      </NotesText>
     </Notes>
 
     <Heading fit caps>
@@ -79,6 +83,15 @@ export default [
         However, this doesn't mean that you're{' '}
         <Highlight>“locked in”</Highlight> to only a feature set that RN
         provides.
+      </NotesText>
+      <NotesText small>
+        Here is an important piece about React Native:
+      </NotesText>
+      <NotesText small>NEXT SLIDE</NotesText>
+      <NotesText small>
+        <Highlight>
+          Everything that is available to native is accessible.
+        </Highlight>
       </NotesText>
     </Notes>
 
