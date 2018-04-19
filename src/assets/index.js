@@ -1,5 +1,6 @@
 const images = {
   animation: require('./animation.gif'),
+  chadev: require('./chadev.svg'),
   debug: require('./debug.gif'),
   devmenu: require('./devmenu.png'),
   flexbox: require('./flexbox.png'),

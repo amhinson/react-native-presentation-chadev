@@ -19,11 +19,28 @@ import {
   Slide
 } from 'spectacle';
 
-import { Code, ListItem, Text } from '../components';
+import { Code, Highlight, ListItem, NotesText, Text } from '../components';
 import images from '../assets';
 
 export default [
   <Slide bgColor="tertiary">
+    <Notes>
+      <NotesText>
+        Mobile javascript framework developed by Facebook in 2015.
+      </NotesText>
+      <NotesText>
+        It takes the same <Highlight>declarative & modular</Highlight> style of
+        building applications with React and brings it to mobile development.
+      </NotesText>
+      <NotesText>
+        <Highlight>Its not a WebView</Highlight> inside an app shell or some
+        other “hybrid” app.
+      </NotesText>
+      <NotesText>
+        Creates <Highlight>real native apps</Highlight>
+      </NotesText>
+    </Notes>
+
     <Heading caps textColor="#f9fdff">
       React Native
     </Heading>
@@ -31,6 +48,20 @@ export default [
   </Slide>,
 
   <Slide>
+    <Notes>
+      <NotesText>
+        React Native uses the{' '}
+        <Highlight>same fundamental UI building blocks</Highlight> as regular
+        iOS and Android apps. You just put those building blocks together using
+        JavaScript and React.
+      </NotesText>
+      <NotesText>
+        Ex: <Highlight>RN has a concept of a "View"</Highlight> that renders a
+        UIView for iOS and android.view for Android. Not just a WebView inside
+        an app shell.
+      </NotesText>
+    </Notes>
+
     <Heading caps>Real Native App</Heading>
     <Appear>
       <div style={{ margin: 30 }}>
