@@ -52,15 +52,16 @@ export default [
         The developer experience was{' '}
         <Highlight>extremely similar to writing React on the web</Highlight>.
         With this, our entire team essentially became mobile developers, which
-        is a HUGE deal. In the past we've only had a couple of developers who
-        had any mobile experience, so their plates were always full with every
-        mobile project we had lined up, but now we can literally have any
-        developer on our team contribute to our mobile projects (and they
-        have!).
+        is a HUGE deal. <Highlight>In the past</Highlight> we've only had a
+        couple of developers who had any mobile experience, so their plates were
+        always full with every mobile project we had lined up, but now we can{' '}
+        <Highlight>literally have any developer on our team</Highlight>{' '}
+        contribute to our mobile projects (and they have!).
       </NotesText>
       <NotesText small>
-        * This is a pretty big deal. New developers coming in only have one
-        basic framework that needs to be learned for front-end development and
+        * This is a pretty <Highlight>big deal</Highlight>. New developers
+        coming in only have <Highlight>one basic framework</Highlight> that
+        needs to be learned for <Highlight>front-end development</Highlight> and
         then they can immediately start working on web and mobile applications!
       </NotesText>
       <NotesText small>

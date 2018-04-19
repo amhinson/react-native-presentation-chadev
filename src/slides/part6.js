@@ -39,8 +39,7 @@ export default [
       <NotesText small>
         One of the exciting things about the React Native ecosystem is how far
         it's <Highlight>reach is spreading</Highlight> into all aspects of
-        development and the
-        <Highlight>stability it has</Highlight>.
+        development and the <Highlight>stability it has</Highlight>.
       </NotesText>
       <NotesText small>
         When React came out it was revolutionary in how it changed front-end
@@ -106,16 +105,16 @@ export default [
         mobile, desktop, etc.
       </NotesText>
       <NotesText small>
-        Many people in the React world share the same vision of using React
-        anywhere.{' '}
+        <Highlight>Many people</Highlight> in the React world share the same
+        vision of using React anywhere.{' '}
       </NotesText>
       <NotesText extraSmall>
         Microsoft, Airbnb and Twitter are leading the charge on this idea
       </NotesText>
       <NotesText extraSmall>
-        I'm going to show a tweet by Nicolas Gallagher, formerly at Twitter and
-        creator of react-native-web, which was used to create the new Twitter
-        web app.{' '}
+        I'm going to show a <Highlight>tweet</Highlight> by Nicolas Gallagher,
+        formerly at Twitter and creator of react-native-web, which was used to
+        create the new Twitter web app.{' '}
         <Highlight>
           I think this is spot on to what React Native represents for the
           future:

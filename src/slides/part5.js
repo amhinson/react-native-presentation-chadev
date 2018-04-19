@@ -357,7 +357,7 @@ export default [
         React Native has a{' '}
         <Highlight>
           couple of ways to tie into those native interactions
-        </Highlight>
+        </Highlight>{' '}
         to make everything feel and look more native.
       </NotesText>
     </Notes>
@@ -425,8 +425,9 @@ export default [
   <Slide>
     <Notes>
       <NotesText>
-        RN comes by default with a very robust animation library called Animated
-        that provides pretty much any detail of animation needed.
+        RN comes by default with a very{' '}
+        <Highlight>robust animation library</Highlight> called Animated that
+        provides pretty much any detail of animation needed.
       </NotesText>
       <NotesText>APPEAR SLIDE</NotesText>
       <NotesText>
@@ -474,7 +475,8 @@ export default [
   <Slide>
     <Notes>
       <NotesText>
-        RN provides the PanResponder module to handle user gestures.
+        RN provides the <Highlight>PanResponder</Highlight> module to handle
+        user gestures.
       </NotesText>
       <NotesText>APPEAR SLIDE</NotesText>
       <NotesText>
