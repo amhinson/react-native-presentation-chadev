@@ -57,6 +57,7 @@ export default [
         <Highlight>great experiences for mobile apps.</Highlight>
       </NotesText>
     </Notes>
+
     <Heading textColor="#f9fdff">Alex Hinson</Heading>
     <Typeface googleFont="Bungee Shade">
       <Text textSize={60} textColor="#f9fdff">
@@ -75,7 +76,6 @@ export default [
       <NotesText>
         * But not great DX becuase we have to build the same app twice
       </NotesText>
-
       <NotesText>
         We've also done a bit with <Highlight>PhoneGap</Highlight>, a hybrid
         solution that lets you write HTML5 and use it inside of a WebView inside
@@ -91,8 +91,8 @@ export default [
         ended up looking into <Highlight>React Native.</Highlight>
       </NotesText>
     </Notes>
-    <Heading caps>Mobile Apps</Heading>
 
+    <Heading caps>Mobile Apps</Heading>
     <Layout>
       <Fill>
         <Appear>
@@ -112,7 +112,6 @@ export default [
           <Text padding="20px 0">Not so great DX</Text>
         </Appear>
       </Fill>
-
       <Fill>
         <Appear>
           <Heading

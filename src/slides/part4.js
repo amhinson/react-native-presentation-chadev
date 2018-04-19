@@ -53,6 +53,7 @@ export default [
         <Highlight>interesting distinction with RN</Highlight>.
       </NotesText>
     </Notes>
+
     <Heading fit caps>
       In Production
     </Heading>
@@ -80,6 +81,7 @@ export default [
         provides.
       </NotesText>
     </Notes>
+
     <Heading caps fit>
       "Brown-field"
     </Heading>
@@ -133,6 +135,7 @@ export default [
         announced, so we were able to add that into our project fairly easily.
       </NotesText>
     </Notes>
+
     <Heading fit caps>
       Everything Is Accessible
     </Heading>
@@ -158,6 +161,7 @@ export default [
         app as well.
       </NotesText>
     </Notes>
+
     <Heading caps>No barriers</Heading>
   </Slide>
 ];

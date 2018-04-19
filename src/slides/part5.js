@@ -84,6 +84,10 @@ matchDetailContainer: {
 }
 `;
 
+const touchables = `<TouchableOpacity>
+<TouchableHighlight>
+<TouchableOpacity>`;
+
 const touchableOpacity = `<TouchableOpacity
   onPress={doSomething}
   style={styles.container}
@@ -121,9 +125,9 @@ export default [
   <Slide>
     <Notes>
       <NotesText>iOS</NotesText>
-      <NotesText>Can't build on Windows</NotesText>
+      <NotesText>* Can't build on Windows</NotesText>
       <NotesText>Android</NotesText>
-      <NotesText>Works on both Max & Windows</NotesText>
+      <NotesText>* Works on both Mac & Windows</NotesText>
     </Notes>
 
     <Heading caps>Setup</Heading>
@@ -197,7 +201,7 @@ export default [
         These are essentially the <Highlight>“Building Blocks”</Highlight> on
         your application.
       </NotesText>
-      <NotesText>APPEAR SLIDE & talk about each</NotesText>
+      <NotesText>APPEAR SLIDE & TALK ABOUT EACH</NotesText>
       <NotesText>
         These are <Highlight>just a few</Highlight>, but there are many more
         primitive components from RN available.
@@ -377,6 +381,8 @@ export default [
       <NotesText>
         <Highlight>They behave visually as their names imply.</Highlight>
       </NotesText>
+      <NotesText>APPEAR SLIDE</NotesText>
+      <NotesText>APPEAR SLIDE AGAIN</NotesText>
       <NotesText>I'm using a TouchableOpacity in the example.</NotesText>
       <NotesText>
         These all <Highlight>also have onPress</Highlight> event handlers.
@@ -386,23 +392,34 @@ export default [
     <Heading textSize={70} caps>
       Touch
     </Heading>
-    <Appear>
-      <div>
-        <Layout>
-          <Fill>
+    <div>
+      <Layout>
+        <Fill>
+          <Appear>
+            <CodePane
+              theme="external"
+              lang="jsx"
+              source={touchables}
+              textSize="30px"
+              margin="0 0 20px"
+            />
+          </Appear>
+          <Appear>
             <CodePane
               theme="external"
               lang="jsx"
               source={touchableOpacity}
               textSize="34px"
             />
-          </Fill>
-          <Fill>
+          </Appear>
+        </Fill>
+        <Fill>
+          <Appear>
             <Image src={images.touchableOpacity} height="600" />
-          </Fill>
-        </Layout>
-      </div>
-    </Appear>
+          </Appear>
+        </Fill>
+      </Layout>
+    </div>
   </Slide>,
 
   <Slide>
@@ -523,6 +540,7 @@ export default [
         debugging.
       </NotesText>
     </Notes>
+
     <Image src={images.debug} height="600" />
   </Slide>,
 

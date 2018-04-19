@@ -150,9 +150,9 @@ export default [
 
   <Slide>
     <Notes>
-      <NotesText>Chadev</NotesText>
-      <NotesText>Airship</NotesText>
-      <NotesText>Everyone here</NotesText>
+      <NotesText extraSmall>Chadev</NotesText>
+      <NotesText extraSmall>Airship</NotesText>
+      <NotesText extraSmall>Everyone here</NotesText>
       <NotesText extraSmall>
         Shameless plug: Airship is hiring remote developers right now, so talk
         to me afterwards if you're interested!
