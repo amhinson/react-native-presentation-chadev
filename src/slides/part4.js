@@ -45,8 +45,9 @@ export default [
         These companies have apps that have{' '}
         <Highlight>
           been around for a lot longer than React Native has been on the scene
-        </Highlight>, so it just wouldn't make sense to completely scrap their
-        old app and start new.
+        </Highlight>
+        , so it just wouldn't make sense to completely scrap their old app and
+        start new.
       </NotesText>
       <NotesText>
         This leads into an{' '}

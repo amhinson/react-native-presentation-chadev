@@ -111,8 +111,9 @@ export default [
         The{' '}
         <Highlight>
           bridge is a fairly new concept if you're coming from the React world
-        </Highlight>, however there is a lot to React Native that we can easily
-        compare with what you already know in React. Here are a{' '}
+        </Highlight>
+        , however there is a lot to React Native that we can easily compare with
+        what you already know in React. Here are a{' '}
         <Highlight>few important distinctions.</Highlight>
       </NotesText>
     </Notes>
@@ -159,9 +160,23 @@ export default [
         This includes ES6 and some ES7 features built-in, so no need for adding
         the babel plugins.
       </NotesText>
+      <NotesText>APPEAR SLIDE</NotesText>
+      <NotesText>
+        React Native also lets you build your app faster.{' '}
+        <Highlight>Instead of recompiling</Highlight>, you can reload your app
+        instantly. With <Highlight>Hot Reloading</Highlight>, you can even run
+        new code while retaining your application state
+      </NotesText>
+      <NotesText>
+        If you've ever worked with native development, you know how{' '}
+        <Highlight>frustrating</Highlight> the recompiling process can be.
+      </NotesText>
     </Notes>
 
     <Heading caps>Bundling</Heading>
+    <Appear>
+      <Heading caps>Compiling</Heading>
+    </Appear>
   </Slide>,
 
   <Slide>
@@ -204,8 +219,10 @@ export default [
       <NotesText>APPEAR SLIDE & TALK ABOUT EACH</NotesText>
       <NotesText>
         These are <Highlight>just a few</Highlight>, but there are many more
-        primitive components from RN available.
+        primitive components from RN available.{' '}
+        <Highlight>Again, these compile to NATIVE components</Highlight>
       </NotesText>
+
       <NotesText>
         <Highlight>NOTE: Due to RN not using web elements</Highlight>, most UI
         libraries for React will not work unless they have their own RN
@@ -277,8 +294,10 @@ export default [
         positioning.
       </NotesText>
       <NotesText>
-        <Highlight>This works exactly how Flexbox is used on the web</Highlight>,
-        so you don't have to learn some new pattern for layout.
+        <Highlight>
+          This works almost exactly how Flexbox is used on the web
+        </Highlight>
+        , so you don't have to learn some new pattern for layout.
       </NotesText>
       <NotesText>
         This is the <Highlight>preferred way</Highlight> of handling layout to
@@ -319,14 +338,16 @@ export default [
         In the code I can check what{' '}
         <Highlight>
           type of device it is and do specific actions with that
-        </Highlight>, whether it is something extra that I want to happen on an
-        Android device or if I want to apply a specific style for iOS only.
+        </Highlight>
+        , whether it is something extra that I want to happen on an Android
+        device or if I want to apply a specific style for iOS only.
       </NotesText>
       <NotesText>
         With that said,{' '}
         <Highlight>
           RN will absolutely work without any special attention to the platform
-        </Highlight>. The decision is up to you.
+        </Highlight>
+        . The decision is up to you.
       </NotesText>
     </Notes>
 
@@ -350,8 +371,9 @@ export default [
         <Highlight>
           users have some level of expectation to how they interact with their
           apps
-        </Highlight>, and <Highlight>native apps sets the standard</Highlight>{' '}
-        for what is expected.
+        </Highlight>
+        , and <Highlight>native apps sets the standard</Highlight> for what is
+        expected.
       </NotesText>
       <NotesText>
         React Native has a{' '}
@@ -491,8 +513,8 @@ export default [
         I didn't include a code sample because the{' '}
         <Highlight>
           API isn't as clean and clear as some of the others here
-        </Highlight>, but it is still extremely powerful tool that is used quite
-        frequently.
+        </Highlight>
+        , but it is still extremely powerful tool that is used quite frequently.
       </NotesText>
     </Notes>
 

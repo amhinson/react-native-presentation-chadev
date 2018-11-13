@@ -33,8 +33,9 @@ export default [
         When committing to a new framework,{' '}
         <Highlight>
           we didn't want to spend valuable time learning a new technology
-        </Highlight>, only for it to be obsolete within a few years. If you've
-        been in web development for a while, you're definitely experienced this.
+        </Highlight>
+        , only for it to be obsolete within a few years. If you've been in web
+        development for a while, you're definitely experienced this.
       </NotesText>
       <NotesText small>
         One of the exciting things about the React Native ecosystem is how far
@@ -109,12 +110,13 @@ export default [
         vision of using React anywhere.{' '}
       </NotesText>
       <NotesText extraSmall>
-        Microsoft, Airbnb and Twitter are leading the charge on this idea
+        A lot of large companies such as Microsoft, Facebook, and Twitter are
+        leading the charge on this idea
       </NotesText>
       <NotesText extraSmall>
         I'm going to show a <Highlight>tweet</Highlight> by Nicolas Gallagher,
         formerly at Twitter and creator of react-native-web, which was used to
-        create the new Twitter web app.{' '}
+        create the Twitter web app.{' '}
         <Highlight>
           I think this is spot on to what React Native represents for the
           future:
@@ -122,7 +124,7 @@ export default [
       </NotesText>
       <NotesText extraSmall>APPEAR SLIDE</NotesText>
       <NotesText extraSmall>
-        “Backends” meaning different technologies such as mobile, web, etc.
+        “Backends” meaning different platforms such as mobile, web, etc.
       </NotesText>
       <NotesText extraSmall>
         <Highlight>
@@ -149,7 +151,7 @@ export default [
 
   <Slide>
     <Notes>
-      <NotesText extraSmall>Chadev</NotesText>
+      <NotesText extraSmall>ChaJS</NotesText>
       <NotesText extraSmall>Airship</NotesText>
       <NotesText extraSmall>Everyone here</NotesText>
       <NotesText extraSmall>
@@ -165,11 +167,6 @@ export default [
       </Fill>
       <Fill>
         <Image src={images.react} height="400" />
-      </Fill>
-    </Layout>
-    <Layout>
-      <Fill>
-        <Image src={images.chadev} width="400" />
       </Fill>
     </Layout>
   </Slide>
